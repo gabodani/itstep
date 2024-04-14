@@ -178,7 +178,100 @@ textarea:focus, input:focus{
     border-width: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius:20px;
+    display:flex;
+    gap:90px;
 }
 .middle{
     margin-top:220px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.text_div{
+    height: 240px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    position: relative;
+    top: 30px;
+}
+.lorem{
+    margin-top:35px;
+    width: 250px;
+    text-align: center;
+    font-family:"Montserrat";
+    font-size: 14px;
+    line-height: 17px;
+}
+.paragraph{
+    font-size: 23px;
+    font-weight: 800;
+}
+.View_more{
+    border-style: solid;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: red;
+    border-width: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 900;
+}
+.cart{
+    height: 255px;
+}
+.second{
+        width: 625px;
+        height: 300px;
+        border-style: solid;
+        border-width: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius:20px;
+        display:flex;
+        gap:90px;
+}
+.title{
+    font-size: 23px;
+    font-weight: 800;   
+}
+.lorem_ipsum{
+    margin-top:35px;
+    width: 250px;
+    text-align: center;
+    font-family:"Montserrat";
+    font-size: 14px;
+    line-height: 17px;
+}
+.second_div{
+    height: 240px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    position: relative;
+    top: 30px;
+}
+.View_more_btn{
+    border-style: solid;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: red;
+    border-width: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 900;
+}
+.service{
+    height:250px;
 }
