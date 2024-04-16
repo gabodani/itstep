@@ -227,6 +227,7 @@ textarea:focus, input:focus{
     align-items: center;
     font-size: 17px;
     font-weight: 900;
+    cursor:pointer;
 }
 .cart{
     height: 255px;
@@ -276,6 +277,7 @@ textarea:focus, input:focus{
     align-items: center;
     font-size: 17px;
     font-weight: 900;
+    cursor:pointer;
 }
 .service{
     height:250px;
@@ -302,4 +304,70 @@ textarea:focus, input:focus{
         width: 30%;
     height: 105%;
     }
+}
+.items{
+    margin-top:130px;
+    display:flex;
+    justify-content:center;
+}
+.first_line{
+    width: 1290px;
+    height: 360px;
+}   
+.wooden{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:370px;
+    width:310px;
+}
+.meza{
+    font-weight: 900;
+    font-size: x-large;
+    position:relative;left:20px;
+}
+.computer_table{
+    margin-top:65px;
+}
+.tzs{
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: roboto;
+}
+.used{
+    width: 45px;
+    height: 16px;
+    border-style: solid;
+    background-color: red;
+    border-width: 0;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor:pointer
+}
+.ipnomer{
+    display: ruby-text;
+}
+.university{
+    display: flex;
+    position: relative;
+    left: 20px;
+    margin-top: 5px;
+    color: gray;
+    font-family:"poppins";
+}
+.laptop{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:370px;
+    width:310px;   
+}
+.notebook{
+    margin-top: 15px;
+    width: 100%;
+}
+.mezza{
+    font-weight: 900;
+    font-size: x-large;
+    position:relative;left:20px;
+    margin-top:50px;
 }
