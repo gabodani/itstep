@@ -313,6 +313,10 @@ textarea:focus, input:focus{
 .first_line{
     width: 1290px;
     height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
 }   
 .wooden{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -362,12 +366,98 @@ textarea:focus, input:focus{
     width:310px;   
 }
 .notebook{
-    margin-top: 15px;
+    margin-top: 26px;
     width: 100%;
 }
 .mezza{
     font-weight: 900;
     font-size: x-large;
     position:relative;left:20px;
+}
+.table{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:370px;
+    width:310px;   
+}
+.mezzaa{
+    font-weight: 900;
+    font-size: x-large;
+    position:relative;left:20px;
     margin-top:50px;
+}
+.mmezza{
+    font-weight: 900;
+    font-size: x-large;
+    position:relative;left:20px;
+    margin-top:15px;
+}
+.headphones{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:370px;
+    width:310px;   
+}
+.small_table{
+    margin-top:6px;
+}
+.airpods{
+    margin-top:13px;
+}
+.second_items{
+    margin-top:130px;
+    display:flex;
+    justify-content:center;
+}
+.second_line{
+    width: 1290px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}   
+.hand_watch{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:370px;
+    width:310px;   
+}
+.watch{
+    height:292px;
+}
+.watch_div{
+    display: flex;
+    justify-content: center;
+}
+.third_items{
+    margin-top:130px;
+    display:flex;
+    justify-content:center;
+}
+.rowthree{
+    width: 1290px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}   
+.shoes{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:370px;
+    width:310px;   
+}
+.sneaker{
+    height: 286px;
+}
+.last_item{
+    width: 1300px;
+    height: 71px;
+    margin-top:150px;
+}
+.grayborder{
+    width: 1300px;
+    height: 0px;
+    border-style: solid;
+    color: gray;
+    opacity: 0.5;
+    border-width: 2px;
 }
