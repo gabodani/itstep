@@ -1,0 +1,70 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:100%;
+    height:100%;
+}
+.header{
+    width:100%;
+    height:120px;
+    background-image: linear-gradient(pink,white);
+}
+.in{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.unisoko{
+    font-family:"poppins";
+    width: 100%;
+    height: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(74, 153, 211, 1);
+    margin-left:15%
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.user{
+    margin-bottom:10px;
+}
+.plus{
+    margin-bottom:5px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.go{
+    display: flex;
+    gap: 120px;
+    margin-right: 10%;
+}
+@media (max-width: 950px) {
+    .unisoko {
+      font-size:20px;
+    }
+    .go{margin-right: 0;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right:5%;
+    }
+        .add{
+            margin-right:75px;
+        }
+  }
