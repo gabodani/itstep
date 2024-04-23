@@ -68,3 +68,83 @@ html,body{
             margin-right:75px;
         }
   }
+  .blue_back{
+    width: 1600px;
+    height: 440px;
+    background-color: #EAF6FF;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blue{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+  }
+  .text{
+    width: 505px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family:"Montserrat";
+}
+.find{
+    height: 70px;
+    width: 585px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: red;
+    display:flex;
+    background-color:white;
+    align-items:center;
+}
+.glass{
+    width:30px;
+    margin-left:7%;
+
+}
+#enter{
+    border-style: solid;
+    width: 215px,auto;
+    margin-left: 20px;
+    height: 25px;
+    border: none;
+    border-color: white;
+    border-width: 0.1em;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.first_box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    top: -5px;
+}
+.second_box{
+    position: relative;
+    top: 142px;
+}
+@media (max-width: 950px) {
+    .blue_back{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .text{font-size: 25px;
+        position: relative;
+        top: 35px;}
+        .find{width:180%;}
+        .second_box{position: relative;
+            top: 20px;}
+            .person{width:320px;}
+}

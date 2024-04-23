@@ -68,41 +68,35 @@ html,body{
             margin-right:75px;
         }
   }
+  .blue_back{
+    width: 1600px;
+    height: 440px;
+    background-color: #EAF6FF;
+    display: flex;
+    justify-content: space-between;
+  }
   .blue{
-    background-image: url(blue\ back.png);
-    width:93%;height:350px;
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
   }
-  .blue_parent{
-    display:flex;justify-content: center;
-  }
-.person{
-    position: absolute;
-    top: 160px;
-    left: 60%;
-}
-.text{
+  .text{
     width: 505px;
     height: 85px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    position: absolute;
-    top: 180px;
     font-size: 35px;
-    left: 15%;
     font-weight: 400;
     font-family:"Montserrat";
 }
 .find{
-    position: absolute;
     height: 70px;
     width: 585px;
     border-style: solid;
     border-radius: 30px;
     border-color: red;
-    top: 305px;
-    left: 12%;
     display:flex;
     background-color:white;
     align-items:center;
@@ -111,12 +105,6 @@ html,body{
     width:30px;
     margin-left:7%;
 
-}
-.sort{
-    width:30px;
-    position: absolute;
-    left: 500px;
-    transform:rotate(270deg)
 }
 #enter{
     border-style: solid;
@@ -130,52 +118,37 @@ html,body{
 textarea:focus, input:focus{
     outline: none;
 }
-@media (max-width: 950px) {
-    .text{
-        top: 130px;
-    font-size: 25px;
-    text-align: center;
+.first_box{
+    width: 50%;
+    height: 100%;
     display: flex;
-    left: 0px;
-    width:100%
-    }
-    .find{width: 75%;
-        top: 230px;
-        display: flex;
-        justify-content: center;}
-    .blue{display: flex;
-        justify-content: center;
-        align-items: center;}
-        .blue_parent{display: flex;
-            justify-content: center;
-            align-items: center;}
-        .person{left: 10px;
-            top: 160px;
-            width: 80%;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            position: relative;}
-            .sort{display:none}
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    top: -5px;
 }
-@media screen and (min-width: 950px) and (max-width: 1400px) {
-    .person{
-        width: 35%;
-    top: 270px;
-    }
-    .find{
-        width:480px;
-    }
-    .sort{
-        display:none
-    }
+.second_box{
+    position: relative;
+    top: 142px;
 }
 @media (max-width: 950px) {
-    #enter{
-        width:140px;
+    .blue_back{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
     }
+    .text{font-size: 25px;
+        position: relative;
+        top: 35px;}
+        .find{width:180%;}
+        .second_box{position: relative;
+            top: 20px;}
+            .person{width:320px;}
 }
+
 .new{
     width: 625px;
     height: 300px;
