@@ -73,7 +73,7 @@ html,body{
     height: 440px;
     background-color: #EAF6FF;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
   }
   .blue{
     display:flex;
@@ -148,3 +148,126 @@ textarea:focus, input:focus{
             top: 20px;}
             .person{width:320px;}
 }
+.middle{
+    height: 760px;
+    width: 100%;
+    margin-top:100px;
+}
+.pict{
+    width: 600px;
+    height: 600px;
+}
+.headphones{
+    width: 600px;
+    height: 600px;
+}
+.items{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.used{
+    width: 45px;    
+        height: 20px;
+        border-style: solid;
+        background-color: red;
+        border-width: 0;
+        color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        cursor:pointer}
+.charachter{
+            height:100%;
+            position: relative;
+    top: 35px;
+        }
+.brand{
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:"Manrope";
+        }
+.tzs{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+    font-family:"Manrope"
+}
+.university{margin-top: 15px;
+    color: #50CC98;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family:"Manrope"
+}
+.docs{
+    width: 506px;
+    margin-top:17px;
+    font-family:"Manrope";
+    font-size:15px;
+}
+.description{
+    margin-top:15px;
+}
+.order{
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+    background-color: #EAF6FF63;
+}
+.circle_user{
+    width: 45px;
+    height: 45px;
+}
+.user_second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:150px;
+    gap:12px;
+}
+.username{
+    margin-top:15px;
+    font-weight:bolder;
+    font-size:20px
+}
+.malima{
+    position :absolute;
+    top:57%;
+    left:127px;
+}
+.kkk{
+    position: absolute;
+    top: 62%;
+    left: 200px;
+    font-family:"Inter"
+}
+.ring{
+    width:40px;
+}
+.call_div{
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #EB3223;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    position:relative;left:29%;
+    cursor:pointer;
+}
+.call{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-family:"Inter"
+}
+.call_div:hover{opacity: 0.5;
+background-color:orangered}
