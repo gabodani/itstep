@@ -73,7 +73,7 @@ html,body{
     height: 440px;
     background-color: #EAF6FF;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
   }
   .blue{
     display:flex;

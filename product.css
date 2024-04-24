@@ -271,3 +271,97 @@ textarea:focus, input:focus{
 }
 .call_div:hover{opacity: 0.5;
 background-color:orangered}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.area{
+    width: 1450px;
+    height: 410px;
+    background-color: #EAF6FF;
+}
+.small_text{
+    color:#504A41
+}
+.shop{
+    width: 610px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;top: 120px;
+    POSITION: relative;
+    left: 70px;
+}
+.online_shop{
+    font-size:30px;
+}
+.phone,.post,.location_point{
+    width: 20px;
+    height: 20px;
+}
+.number,.mail,.location{
+display:flex;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: baseline;
+}
+.parametres{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    position: relative;
+    bottom: 120px;
+    right:120px;
+}
+.About_us{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    font-size: 16px;
+}
+.us,.about{
+    font-size: 25px;
+    font-weight: 900;
+}
+@media (max-width: 950px) {
+    .area{
+        width:100%;
+    }
+    .parametres{
+        display: flex;
+    justify-content: center;
+    bottom: 0;
+    gap: 25px;
+    right: 15px;
+    }
+    .shop{
+        left:0;
+        width:98%;
+        top:40px;
+    }
+    .online_shop{
+        font-size:18px;
+    }
+    .headphones{width: 100%;
+        height: 33%;
+        position: absolute;}
+        .items{flex-direction: column;}
+        .charachter{
+            display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+        }
+        .docs{
+            width:100%;
+        }
+        .used{position: absolute;
+            top: 25px;}
+            .brand{position: relative;
+                top: 20px;}
+                .malima{top:85%;}
+                .kkk{top:85%;}
+}
