@@ -575,3 +575,12 @@ display:flex;
 .used_airthree:hover{
     opacity:0.7;
 }
+@media (max-width:950px){
+    .container{width:100%;}
+    .blue{width:100%;}
+    .first_box{width:40%;}
+    .text{font-size: 16px;
+        position: relative;
+        top: 35px;
+        width: 100%;}
+}
