@@ -584,3 +584,16 @@ display:flex;
         top: 35px;
         width: 100%;}
 }
+    .ipnomer_lap{
+        display: ruby-text;}
+    .university_laptop{
+        display: flex;
+        position: relative;
+        left: 20px;
+        margin-top: 5px;
+        color: gray;
+        font-family:"poppins";
+    }
+    @media (max-width:950px){
+        .university_laptop{margin-top: -5px;}
+    }
