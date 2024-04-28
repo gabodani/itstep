@@ -10,3 +10,7 @@ let productthree=document.querySelector(".used_airthree");
 productthree.addEventListener("click",function(){
     window.open("second.html","_parent")
 }) 
+let register=document.querySelector(".register");
+register.addEventListener("click",function(){
+    window.open("register.html","_parent")
+})

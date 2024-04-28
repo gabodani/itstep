@@ -597,3 +597,7 @@ display:flex;
     @media (max-width:950px){
         .university_laptop{margin-top: -5px;}
     }
+    .register:hover{
+        opacity:0.5;
+        cursor:pointer;
+    }
