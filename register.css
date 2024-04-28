@@ -69,16 +69,40 @@ html,body{
             margin-right:75px;
         }
   }
-  .form{
-    width: 1440px;
-    height: 1025px;
+.form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
     margin-top:100px;
-  }
-  .photo{
-    width: 870px;
-    height: 710px;
+}
+.entrance{
+    width: 1440px;
+    height: 1024px;
+    display:flex;
+
 }
 .sign_up{
     width: 120px;
     height: 25px;
+    border-style: solid;
+    border-width: 0;
+    font-weight: 700
 }
+.sign_in{
+    width: 120px;
+    height: 25px;
+    border-style: solid;
+    border-width: 0;
+    background-color:#c4f1ff;
+    font-weight: 700
+}
+.buttons{
+    display:flex;
+}
+.information{
+    width: 375px;
+    height: 725px;
+    margin-top:10px;
+}
+.log_in{display: ruby;}
