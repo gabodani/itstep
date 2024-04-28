@@ -365,3 +365,25 @@ display:flex;
                 .malima{top:85%;}
                 .kkk{top:85%;}
 }
+@media (max-width:950px){
+    .container{width:100%;}
+    .blue{width:100%;}
+    .first_box{width:40%;}
+    .text{font-size: 16px;
+        position: relative;
+        top: 35px;
+        width: 100%;}
+        .middle{width:100%}
+        .pict{width:100%;}
+}
+    .ipnomer_lap{
+        display: ruby-text;}
+    .university_laptop{
+        display: flex;
+        position: relative;
+        left: 20px;
+        margin-top: 5px;
+        color: gray;
+        font-family:"poppins";
+        
+    }
