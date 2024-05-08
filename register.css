@@ -283,7 +283,12 @@ display:flex;
     .entrance{display: flex;
         flex-direction: column;
         position: relative;}
-        .footer{margin-top: 160px;}
+        .footer{margin-top: 0;}
         .photo{width:75%;}
         .people{width: 130%;}
-}
+        .acc{position: relative;
+            bottom: 100px;
+        }
+        .link{position: relative;
+            bottom: 160px;}
+    }
