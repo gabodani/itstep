@@ -283,7 +283,7 @@ display:flex;
     .entrance{display: flex;
         flex-direction: column;
         position: relative;}
-        .footer{margin-top: 0;}
+        .footer{margin-top: 120px;}
         .photo{width:75%;}
         .people{width: 130%;}
         .acc{position: relative;
